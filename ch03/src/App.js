@@ -19,15 +19,15 @@ function App() {
    //     </Quiz03>
    //  )
    //  return <Quiz04 major="국어국문과" grade={['A', 'A+', 'C', 'B', 'B+', 'D']} start={false}></Quiz04>
-   return (
-      <Quiz05 major="국어국문과" grade={['A', 'A+', 'C', 'B', 'B+', 'D']} start={false}>
-         컴퓨터 공학
-      </Quiz05>
-   )
+   // return (
+   //    <Quiz05 major="국어국문과" grade={['A', 'A+', 'C', 'B', 'B+', 'D']} start={false}>
+   //       컴퓨터 공학
+   //    </Quiz05>
+   // )
    //
-   //  return <Quiz06 />
+   // return <Quiz06 />
    // return <Quiz07 />
-   // return <Quiz08 />
+   return <Quiz08 />
 }
 
 export default App
