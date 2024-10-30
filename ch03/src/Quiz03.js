@@ -1,5 +1,5 @@
 function Quiz03(props) {
-   const { name, age = '21', phone, children } = props
+   const { name, age = 21, phone, children } = props
    return (
       <div>
          <h2>학생정보</h2>
