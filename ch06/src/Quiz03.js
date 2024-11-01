@@ -5,7 +5,9 @@ function Quiz03() {
 
    useEffect(() => {
       // 여기에 코드를 작성하세요
-   }, []) // 이 부분을 수정하세요
+      console.log('count changed')
+      console.log(count)
+   }, [count]) // 이 부분을 수정하세요
 
    return (
       <div>

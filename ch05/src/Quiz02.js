@@ -12,7 +12,6 @@ function Quiz02() {
    const [nextId, setNextId] = useState(5)
 
    const onChangeName = (e) => setInputName(e.target.value)
-
    const onChangeDept = (e) => setInputDept(e.target.value)
 
    const onClick = () => {
@@ -21,8 +20,8 @@ function Quiz02() {
          dept: inputDept,
          name: inputName,
       })
-      setNextId(nextId + 1)
       setEmployees(nextEmployees)
+      setNextId(nextId + 1) //이부분을 하지 않으면 다음 등록된 아이디가 오류
       setInputName('')
       setInputDept('')
    }

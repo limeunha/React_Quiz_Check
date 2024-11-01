@@ -9,3 +9,5 @@ function Quiz01() {
 }
 
 export default Quiz01
+
+//맨처음 에만 출력

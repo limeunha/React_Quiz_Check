@@ -9,3 +9,5 @@ function Quiz02() {
 }
 
 export default Quiz02
+
+//렌더링할때 출력
